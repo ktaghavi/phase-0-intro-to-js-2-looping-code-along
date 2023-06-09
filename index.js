@@ -7,9 +7,8 @@ function writeCards(names) {
     return cardMessages;
 }
 
-function countDown(i) {
-    for (let i = 0; i < 11; i++) 
-        console.log(i);
-};
-
-countDown (4);
+function countDown(number) {
+    while(number >= 0) {
+        console.log(number--)
+    };
+}
